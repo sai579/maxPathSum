@@ -1,3 +1,4 @@
+# maxPathSum
 This is a user login, registration  and computing maximum longest path sum app.
 
 
@@ -14,3 +15,4 @@ $ npm run dev
 
 # Visit http://localhost:5000
 ```
+
