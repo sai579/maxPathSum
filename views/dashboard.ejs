@@ -1,0 +1,13 @@
+<h1 class="mt-4">Dashboard</h1>
+<p class="lead mb-3">Welcome <%= user.name %></p>
+<form action="/dashboard/submit" method="POST">
+    <div class="form-group">
+        <label for="tree">Enter the nodes for a tree:</label>
+        <input type="numbers" id="treeNode" name="tree" class="form-control" />
+        <p>Enter the nodes of your desired tree as a comma seperated sequence of numbers level by level, starting from
+            root and going from left to right in each level.</p>
+        <p>If you have empty left node or right node, please pass the value as '0'.</p>
+        <p><b>Example Input:</b> 1,2,3,0,5,0,6,7,8,0,0,9,10,11,12. This is a 4 level tree input.</p>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+</form>
