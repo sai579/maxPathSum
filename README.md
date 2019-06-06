@@ -16,3 +16,9 @@ $ npm run dev
 # Visit http://localhost:5000
 ```
 
+### Run with docker
+
+```sh
+$ docker-compose up
+```
+
